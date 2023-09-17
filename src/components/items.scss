@@ -1,0 +1,51 @@
+
+.container{
+    width: fit-content;
+    background-color: rgb(98, 98, 172);
+    padding: 8px 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    header{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        input{
+            width: 400px;
+            height: 30px;
+            outline: none;
+        }
+        button{
+            width:30% ;
+            height: 30px;
+            cursor: pointer;
+        }
+    }
+    .content{
+        ul{
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+                li{
+                    display: flex;
+                    justify-content: space-between;
+                    padding: 5px 2px;
+                    background-color: rgba(240, 83, 169, 0.682);
+                    
+                    p{
+                        color: white;
+                    }
+
+                    .btns{
+                        display: flex;
+                        button{
+                            padding: 1px 4px;
+                            cursor: pointer;
+                        }
+                    }
+                }
+            
+        }
+    }
+}
